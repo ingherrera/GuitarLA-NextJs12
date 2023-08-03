@@ -1,0 +1,13 @@
+{
+  "semi": false,
+  {
+    "rules": {
+      "no-multi-spaces": [
+        "error",
+        {
+          "ignoreEOLComments": true
+        }
+      ]
+    }
+  }
+}
