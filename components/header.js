@@ -56,7 +56,13 @@ export default function Header() {
           <Link href="/carrito">
             <a className={router.pathname === "/carrito" ? styles.active : ""}>
               <div className={styles.divContenedor}>
-                {carrito.length > 0 ?  <div className={styles.badge} id="badge">{carrito.length}</div>: ""}
+                {carrito.length > 0 ? (
+                  <div className={styles.badge} id="badge">
+                    {carrito.length}
+                  </div>
+                ) : (
+                  ""
+                )}
                 <Image
                   src="/img/carrito.png"
                   alt="Imagen del Carrito"
