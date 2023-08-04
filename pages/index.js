@@ -15,7 +15,7 @@ export default function Home({ guitarras, posts, curso, carrito }) {
         description={"Blog de música, venta de guitarras y más"}
         carrito={carrito}
       >
-        {/* <main className="contenedor">
+        <main className="contenedor">
           <h2 className="heading">Nuestra Colección</h2>
           {guitarras?.length && (
             <div className={styles.grid}>
@@ -24,17 +24,17 @@ export default function Home({ guitarras, posts, curso, carrito }) {
               ))}
             </div>
           )}
-        </main> */}
-        { /* <Curso curso={curso.attributes} /> */}
+        </main>
+        <Curso curso={curso.attributes} />
 
-        {/* <section className="contenedor">
+        <section className="contenedor">
           <h1 className="heading">Blog</h1>
           <div className={styles.grid}>
             {posts?.map((post) => (
               <Post key={post.id} post={post.attributes} />
             ))}
           </div>
-        </section> */}
+        </section>
       </Layout>
     </>
   )
