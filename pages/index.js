@@ -39,7 +39,7 @@ export default function Home({ guitarras, posts, curso, carrito }) {
     </>
   )
 }
-/*
+
 export async function getStaticProps() {
   const urlGuitarras = `${process.env.API_URL}/guitarras?populate=imagen`
   const urlPosts = `${process.env.API_URL}/posts?populate=imagen`
@@ -62,4 +62,3 @@ export async function getStaticProps() {
     },
   }
 }
-*/
