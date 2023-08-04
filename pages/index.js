@@ -5,9 +5,6 @@ import Post from "../components/post"
 import styles from "../styles/grid.module.css"
 
 export default function Home({ guitarras, posts, curso, carrito }) {
-  // console.log({ guitarras })
-  // console.log({ posts })
-  // console.log(curso.attributes)
   return (
     <>
       <Layout
